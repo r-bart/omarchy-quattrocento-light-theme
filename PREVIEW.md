@@ -29,7 +29,7 @@ every theme in the set.
 For the themes page at omarchy.org, convert that screenshot with:
 
 ```bash
-magick preview.png -strip -resize '1200>' -quality 80 quattrocento.webp
+magick preview.png -strip -resize '1200>' -quality 80 quattrocento-light.webp
 ```
 
 then open a pull request against `omacom-io/omarchy-site` adding the webp to

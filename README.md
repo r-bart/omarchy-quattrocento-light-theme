@@ -1,4 +1,4 @@
-# Quattrocento
+# Quattrocento Light
 
 Quattrocento is a tribute to the moment Omarchy has caught.
 
@@ -15,6 +15,8 @@ both.
 And one thing seems safe to say. If there were a da Vinci now, he would be
 building on Omarchy.
 
+Quattrocento Light is the daylight version of [Quattrocento](https://github.com/r-bart/omarchy-quattrocento-theme).
+
 That century did not inherit its alphabet, it constructed it. Pacioli built the
 Roman capitals with compass and straightedge in *De Divina Proportione*, the
 book Leonardo illustrated, and Dürer did the same in *Underweysung der
@@ -27,7 +29,7 @@ wallpaper that puts it on such a page — half-hatched, construction lines
 running past the edges of the sheet, solids and trials in the margins — and
 takes its palette from what is actually on it: iron gall ink and red chalk.
 
-![Quattrocento](palette-check.png)
+![Quattrocento Light](palette-check.png)
 
 *Mock-up, not a screenshot — see [PREVIEW.md](PREVIEW.md).*
 
@@ -40,12 +42,12 @@ could grind in 1500. No colour is here because a terminal palette expects it.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/r-bart/omarchy-quattrocento-theme.git
-omarchy theme set quattrocento
+omarchy theme install https://github.com/r-bart/omarchy-quattrocento-light-theme.git
+omarchy theme set quattrocento-light
 ```
 
-Or use *Install > Style > Theme* in the Omarchy menu, then pick
-**Quattrocento** under *Style > Theme* (`Super + Ctrl + Shift + Space`).
+Or use *Install > Style > Theme* in the Omarchy menu, then pick **Quattrocento
+Light** under *Style > Theme* (`Super + Ctrl + Shift + Space`).
 
 Requires Omarchy 4. The palette uses the semantic key set, which does not exist
 in 2.x.
@@ -117,8 +119,9 @@ it — see [Window metrics](#window-metrics).
 
 ## Backgrounds
 
-Two, cycled with `Super + Ctrl + Space`. The same two ship with [Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme);
-both open on the daylight page.
+Two, cycled with `Super + Ctrl + Space`. The same two ship with
+[Quattrocento](https://github.com/r-bart/omarchy-quattrocento-theme); both
+open on the daylight page.
 
 | File | Scene |
 |------|-------|
@@ -138,7 +141,7 @@ geometry with a hand-stroke treatment applied, and every study on the sheet is
 computed — the polyhedra from their actual vertex coordinates, the module
 explosion from the glyph's own fifteen-unit grid.
 
-Add your own in `~/.config/omarchy/backgrounds/quattrocento/` — they appear
+Add your own in `~/.config/omarchy/backgrounds/quattrocento-light/` — they appear
 alongside these.
 
 ## Window metrics
@@ -154,7 +157,7 @@ The same two wallpapers, opposite palette over them.
 
 | Theme | |
 |-------|--|
-| [Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme) | Walnut ground, worn brass accent. The same page, in gold on dark vellum. |
+| [Quattrocento](https://github.com/r-bart/omarchy-quattrocento-theme) | Walnut ground, worn brass accent. The same page, in gold on dark paper. |
 
 ## License
 

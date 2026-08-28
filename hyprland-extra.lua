@@ -1,4 +1,4 @@
--- Window metrics for the Quattrocento theme. NOT a theme file.
+-- Window metrics for the Quattrocento Light theme. NOT a theme file.
 --
 -- Omarchy never reads a Hyprland config from a theme directory; the only thing
 -- a theme sends the compositor is `hyprland_active_border` in colors.toml.
