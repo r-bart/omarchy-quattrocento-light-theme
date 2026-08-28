@@ -2,14 +2,15 @@
 
 Quattrocento is a tribute to the moment Omarchy has caught.
 
-It looks like a neo-Renaissance from here. Every technology we have, generative
-AI now among them, has turned into something closer to an API that plugs
-straight into the imagination — open to creators of every kind, not only to the
-people who can build the tooling themselves.
+Every technology we have, with generative AI as the cherry on top, has turned
+our machines into an API wired straight into the imagination, shortening the
+distance between an idea and the thing itself more than at any point in
+history. A neo-Renaissance, in other words.
 
-The name points at Leonardo da Vinci, born 1452, dead 1519: the Quattrocento
-almost end to end, and a few years past it. What he left still marks the outer
-edge of how much ground one curious person can cover in a lifetime.
+The name is a homage to two things at once: the Omarchy version this was built
+on, *quattro*, and the centuries Leonardo da Vinci lived across, 1452 to 1519.
+A decisive person in a decisive period, for humanity and for civilisation
+both.
 
 And one thing seems safe to say. If there were a da Vinci now, he would be
 building on Omarchy.
