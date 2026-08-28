@@ -70,8 +70,8 @@ The chromatics, and what each one is:
 | `orange` | `#95521a` | burnt ochre |
 | `yellow` | `#7d5a10` | orpiment |
 | `green` | `#3f6b4a` | verdigris |
-| `cyan` | `#256a70` | blue verditer |
-| `blue` | `#34508c` | ultramarine, ground lapis |
+| `cyan` | `#3a6367` | blue verditer |
+| `blue` | `#3f5378` | indigo |
 | `magenta` | `#8c3a58` | madder lake |
 | `brown` | `#6b4a2c` | raw umber |
 
@@ -91,8 +91,8 @@ WCAG relative luminance, against both surfaces a theme renders text on.
 | `accent` | 5.48 | 5.12 |
 | `red` | 5.72 | 5.35 |
 | `green` | 4.97 | 4.65 |
-| `cyan` | 5.03 | 4.70 |
-| `blue` | 6.35 | 5.94 |
+| `cyan` | 5.37 | 5.02 |
+| `blue` | 6.24 | 5.83 |
 | `magenta` | 5.93 | 5.54 |
 | `muted` | 3.38 | 3.16 |
 
