@@ -66,7 +66,7 @@ The chromatics, and what each one is:
 
 | Key | Value | Pigment |
 |-----|-------|---------|
-| `red` | `#a83a26` | vermilion |
+| `red` | `#a32d2a` | vermilion |
 | `orange` | `#95521a` | burnt ochre |
 | `yellow` | `#7d5a10` | orpiment |
 | `green` | `#3f6b4a` | verdigris |
@@ -89,7 +89,7 @@ WCAG relative luminance, against both surfaces a theme renders text on.
 | `foreground` | 11.51 | 10.76 |
 | `bright_foreground` | 14.60 | 13.65 |
 | `accent` | 5.48 | 5.12 |
-| `red` | 5.14 | 4.81 |
+| `red` | 5.72 | 5.35 |
 | `green` | 4.97 | 4.65 |
 | `cyan` | 5.03 | 4.70 |
 | `blue` | 6.35 | 5.94 |

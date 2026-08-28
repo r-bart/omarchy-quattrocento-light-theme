@@ -27,7 +27,7 @@ hyprland_active_border   = "rgba(8a4a2cee) rgba(33291bee) 45deg"
 hyprland_inactive_border = "rgba(d8c9adaa)"
 
 # Named colours, each one a real Renaissance pigment
-red                      = "#a83a26"  # vermilion
+red                      = "#a32d2a"  # vermilion
 orange                   = "#95521a"  # burnt ochre
 yellow                   = "#7d5a10"  # orpiment
 green                    = "#3f6b4a"  # verdigris
@@ -37,7 +37,7 @@ magenta                  = "#8c3a58"  # madder lake
 brown                    = "#6b4a2c"  # raw umber
 
 # Bright variants. Darker, not lighter — this ground is light.
-bright_red               = "#94301f"
+bright_red               = "#8e2622"
 bright_yellow            = "#6d4e0c"
 bright_green             = "#355c3f"
 bright_cyan              = "#1d565b"
