@@ -126,7 +126,7 @@ open on the daylight page.
 | File | Scene |
 |------|-------|
 | `1-codex.jpg` **(default)** | The page in daylight: iron gall and sanguine on parchment, graded so a soft vignette warms the centre. |
-| `2-quire.jpg` | The night page: worn brass on rag paper stained dark with age. |
+| `2-bistre.jpg` | The night page: worn brass on rag paper stained dark with age. Bistre is the soot brown it is the colour of, and the pigment that named it. |
 
 Both are 2912×1632, JPEG at quality 95 with no chroma subsampling. Full chroma
 matters: the sanguine construction lines are a thin warm stroke on a warm
