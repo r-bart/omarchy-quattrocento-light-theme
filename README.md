@@ -33,6 +33,10 @@ takes its palette from what is actually on it: iron gall ink and red chalk.
 
 *Mock-up, not a screenshot — see [PREVIEW.md](PREVIEW.md).*
 
+And the real thing, on a running desktop:
+
+![The desktop](preview.png)
+
 Tonal rather than contrasting. Where Dawn sets a cold signal against a warm
 ground, this one keeps everything inside a single hue family and lets the
 accent sit one step from the surface instead of across from it. The discipline
@@ -127,6 +131,12 @@ open on the daylight page.
 |------|-------|
 | `1-codex.jpg` **(default)** | The page in daylight: iron gall and sanguine on parchment, graded so a soft vignette warms the centre. |
 | `2-codex-dusk.jpg` | The same page at the other end of the day: worn brass on rag paper stained dark with age. Same vectors, same composition, different hour and different ink. |
+
+### The wallpapers
+
+![Codex](backgrounds/1-codex.jpg)
+
+![Codex Dusk](backgrounds/2-codex-dusk.jpg)
 
 Both are 2912×1632, JPEG at quality 95 with no chroma subsampling. Full chroma
 matters: the sanguine construction lines are a thin warm stroke on a warm
