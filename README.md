@@ -125,7 +125,7 @@ it — see [Window metrics](#window-metrics).
 
 Four, cycled with `Super + Ctrl + Space`. The same four ship with
 [Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme);
-only the order differs, so each theme opens on the pair that matches it.
+only the order differs. Both open on the daylight page.
 
 | File | Scene |
 |------|-------|
