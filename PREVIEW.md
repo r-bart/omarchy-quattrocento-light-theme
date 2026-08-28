@@ -32,5 +32,5 @@ For the themes page at omarchy.org, convert that screenshot with:
 magick preview.png -strip -resize '1200>' -quality 80 quattrocento-light.webp
 ```
 
-then open a pull request against `omacom-io/omarchy-site` adding the webp to
+then open a pull request against `omacom/omarchy-site` adding the webp to
 `assets/themes/` and a `<figure>` block to `themes/index.html`, alphabetically.
