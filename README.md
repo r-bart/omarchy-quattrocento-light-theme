@@ -1,37 +1,30 @@
 # Quattrocento
 
-A page from the notebook, not the painting.
+Quattrocento is a tribute to the moment Omarchy has caught.
 
-Linux has mostly been a means to an end for me. Omarchy is the first version
-of it that felt like a *place* — opinionated, finished, and so plainly built by
-someone who cared that it makes you want to go and build something yourself.
+It looks like a neo-Renaissance from here. Every technology we have, generative
+AI now among them, has turned into something closer to an API that plugs
+straight into the imagination — open to creators of every kind, not only to the
+people who can build the tooling themselves.
 
-That is the part I did not expect. Sitting down at this desktop puts me in a
-state I recognise from very few other things: the pull to make, to take apart,
-to lose an evening finding out how something works. Somewhere in the middle of
-that I started thinking about Leonardo — not the paintings, the notebooks. The
-pages where a man who could not stop being curious put a flying machine, a
-study of moving water and a note about what he owed the grocer on the same
-sheet, in whatever order they turned up.
+The name points at Leonardo da Vinci, born 1452, dead 1519: the Quattrocento
+almost end to end, and a few years past it. What he left still marks the outer
+edge of how much ground one curious person can cover in a lifetime.
 
-The Renaissance was that same restlessness at the scale of a century: the
-moment when making things and understanding things stopped being separate
-jobs. Omarchy is a small modern echo of it, and this theme is me saying so out
-loud.
+And one thing seems safe to say. If there were a da Vinci now, he would be
+building on Omarchy.
 
-That century did not inherit its alphabet, it *constructed* it. Pacioli
-built the Roman capitals with compass and straightedge in *De Divina
-Proportione* — the book Leonardo illustrated — and Dürer did it again in
-*Underweysung der Messung*. Letters as a geometry problem, with the working
-lines left visible on the page.
+That century did not inherit its alphabet, it constructed it. Pacioli built the
+Roman capitals with compass and straightedge in *De Divina Proportione*, the
+book Leonardo illustrated, and Dürer did the same in *Underweysung der
+Messung*. Letters as a geometry problem, with the working lines left on the
+page.
 
-Omarchy's wordmark is the same kind of object: no curves anywhere, every glyph
-assembled from squares on a fifteen-unit grid. It belongs on that page. So
-this theme starts from a wallpaper that puts it there — the mark half-hatched,
-the construction lines running through it and off the edge of the sheet, the
-solids and the spiral and the trials crowding the margins — and then takes its
-palette from the two things actually on that page: iron gall ink, and red
-chalk.
+Omarchy's wordmark is that kind of object: no curves anywhere, every glyph
+assembled from squares on a fifteen-unit grid. So this theme starts from a
+wallpaper that puts it on such a page — half-hatched, construction lines
+running past the edges of the sheet, solids and trials in the margins — and
+takes its palette from what is actually on it: iron gall ink and red chalk.
 
 ![Quattrocento](palette-check.png)
 
@@ -131,7 +124,7 @@ only the order differs. Both open on the daylight page.
 |------|-------|
 | `1-codex.jpg` **(default)** | The full page in daylight, graded: a soft vignette pulls the eye to the wordmark and warms the centre. Windows land on quiet parchment on every side. |
 | `2-folio.jpg` | The same page flat, no vignette, no warming. Cooler and more even — better if you run high window opacity or a bright room. |
-| `3-vigil.jpg` | The night page: brass on dark vellum, one candle at the upper left. |
+| `3-vigil.jpg` | The night page: brass on dark vellum, evenly lit. |
 | `4-taper.jpg` | The night page on a warmer, redder skin. |
 
 All four are 2912×1632, JPEG at quality 95 with no chroma subsampling. Full chroma
@@ -163,7 +156,7 @@ The same four wallpapers, opposite palette over them.
 
 | Theme | |
 |-------|--|
-| [Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme) | Walnut ground, worn brass accent. The same page by candlelight. |
+| [Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme) | Walnut ground, worn brass accent. The same page, in gold on dark vellum. |
 
 ## License
 
