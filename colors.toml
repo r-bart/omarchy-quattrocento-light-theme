@@ -1,0 +1,45 @@
+# Quattrocento — a page from the notebook, not the painting
+# Iron gall on parchment. Tonal, not contrasting: the signal sits one step
+# from the ground instead of across from it. Every chromatic is a pigment
+# that a workshop could actually grind in 1500.
+
+mode                     = "light"
+
+# Signal, selection and the de-emphasised ramp
+accent                   = "#8a4a2c"
+selection                = "#ddcdab"
+muted                    = "#8a7a5e"
+
+# Ground, from the deepest surface up to the elevated one
+background               = "#f0e6d3"
+dark_background          = "#e4d8c0"
+darker_background        = "#d8c9ad"
+lighter_background       = "#e9dfc9"
+
+# Text, from de-emphasised up to the cursor
+foreground               = "#33291b"
+dark_foreground          = "#7a6a50"
+light_foreground         = "#4c3f2c"
+bright_foreground        = "#1c150c"
+
+# Window borders. Sanguine into iron gall — the two media of the drawing.
+hyprland_active_border   = "rgba(8a4a2cee) rgba(33291bee) 45deg"
+hyprland_inactive_border = "rgba(d8c9adaa)"
+
+# Named colours, each one a real Renaissance pigment
+red                      = "#a83a26"  # vermilion
+orange                   = "#95521a"  # burnt ochre
+yellow                   = "#7d5a10"  # orpiment
+green                    = "#3f6b4a"  # verdigris
+cyan                     = "#256a70"  # blue-verditer
+blue                     = "#34508c"  # ultramarine, ground lapis
+magenta                  = "#8c3a58"  # madder lake
+brown                    = "#6b4a2c"  # raw umber
+
+# Bright variants. Darker, not lighter — this ground is light.
+bright_red               = "#94301f"
+bright_yellow            = "#6d4e0c"
+bright_green             = "#355c3f"
+bright_cyan              = "#1d565b"
+bright_blue              = "#2a4173"
+bright_magenta           = "#752f49"
