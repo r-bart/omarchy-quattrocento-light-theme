@@ -117,18 +117,15 @@ it — see [Window metrics](#window-metrics).
 
 ## Backgrounds
 
-Four, cycled with `Super + Ctrl + Space`. The same four ship with
-[Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme);
-only the order differs. Both open on the daylight page.
+Two, cycled with `Super + Ctrl + Space`. The same two ship with [Quattrocento Dusk](https://github.com/r-bart/omarchy-quattrocento-dusk-theme);
+both open on the daylight page.
 
 | File | Scene |
 |------|-------|
-| `1-codex.jpg` **(default)** | The full page in daylight, graded: a soft vignette pulls the eye to the wordmark and warms the centre. Windows land on quiet parchment on every side. |
-| `2-folio.jpg` | The same page flat, no vignette, no warming. Cooler and more even — better if you run high window opacity or a bright room. |
-| `3-vigil.jpg` | The night page: brass on dark vellum, evenly lit. |
-| `4-taper.jpg` | The night page on a warmer, redder skin. |
+| `1-codex.jpg` **(default)** | The page in daylight: iron gall and sanguine on parchment, graded so a soft vignette warms the centre. |
+| `2-quire.jpg` | The night page: worn brass on rag paper stained dark with age. |
 
-All four are 2912×1632, JPEG at quality 95 with no chroma subsampling. Full chroma
+Both are 2912×1632, JPEG at quality 95 with no chroma subsampling. Full chroma
 matters: the sanguine construction lines are a thin warm stroke on a warm
 ground, and 4:2:0 turns them to mud. Built with
 `cjpeg -quality 95 -sample 1x1 -optimize`.
@@ -153,7 +150,7 @@ directory; the only thing a theme sends the compositor is
 
 ## The rest of the set
 
-The same four wallpapers, opposite palette over them.
+The same two wallpapers, opposite palette over them.
 
 | Theme | |
 |-------|--|
