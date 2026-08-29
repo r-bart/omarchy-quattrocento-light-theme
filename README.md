@@ -118,8 +118,11 @@ desktop fall out of the palette, window borders included — and it is also why
 `shell.toml` is left to Omarchy's template, so this theme keeps picking up
 shell improvements on each release instead of pinning a snapshot.
 
-`hyprland-extra.lua` is documentation, not a theme file. Omarchy never reads
-it — see [Window metrics](#window-metrics).
+`hyprland-extra.lua.example` is documentation, not a theme file. Omarchy never
+reads it — see [Window metrics](#window-metrics). The suffix is what keeps it
+in an installed copy: `omarchy-theme-set` drops every `*.lua` from a theme
+cloned from a git repo, since that is the extension Hyprland and Neovim load
+code from.
 
 ## Backgrounds
 
@@ -129,22 +132,33 @@ open on the daylight page.
 
 | File | Scene |
 |------|-------|
-| `1-codex.jpg` **(default)** | The page in daylight: iron gall and sanguine on parchment, graded so a soft vignette warms the centre. |
-| `2-codex-dusk.jpg` | The same page at the other end of the day: worn brass on rag paper stained dark with age. Same vectors, same composition, different hour and different ink. |
+| `1-codex.webp` **(default)** | The page in daylight: iron gall and sanguine on parchment, graded so a soft vignette warms the centre. |
+| `2-codex-dusk.webp` | The same page at the other end of the day: worn brass on rag paper stained dark with age. Same vectors, same composition, different hour and different ink. |
 
 ### The wallpapers
 
-![Codex](backgrounds/1-codex.jpg)
+![Codex](backgrounds/1-codex.webp)
 
-![Codex Dusk](backgrounds/2-codex-dusk.jpg)
+![Codex Dusk](backgrounds/2-codex-dusk.webp)
 
-Both are 2912×1632, JPEG at quality 95 with no chroma subsampling. Full chroma
-matters: the sanguine construction lines are a thin warm stroke on a warm
-ground, and 4:2:0 turns them to mud. Built with
-`cjpeg -quality 95 -sample 1x1 -optimize`.
+Both are 2912×1632 WebP, quality 90 with sharp YUV:
 
-JPEG, not WebP. A stock Omarchy 4 install has no Qt WebP decoder, and a WebP
-wallpaper fails at decode time, leaving a black desktop and blank thumbnails.
+```bash
+magick in.jpg -strip -quality 90 -define webp:method=6 \
+  -define webp:use-sharp-yuv=true out.webp
+```
+
+Chroma matters: the sanguine construction lines are a thin warm stroke on a
+warm ground, and 4:2:0 turns them to mud. Lossy WebP has no 4:4:4 mode, so
+sharp YUV stands in — it fits the half-resolution chroma to the luma edges
+instead of averaging across them, and neither plane falls below 42.8 dB.
+Overall the two land at 40.2 dB and 38.3 dB against the quality-95 4:4:4 JPEGs
+they replace, clear of the 38 dB floor Omarchy holds its own backgrounds to,
+at half the weight: 4.5 MB down to 2.3 MB.
+
+WebP, not JPEG. Omarchy draws the background and the lock screen through Qt,
+which had no WebP handler until `qt6-imageformats` joined the base packages in
+August 2026. That is fixed, and Omarchy's own backgrounds are WebP now.
 
 The page itself is generated, not drawn: the wordmark is the real `logo.svg`
 geometry with a hand-stroke treatment applied, and every study on the sheet is
@@ -158,8 +172,8 @@ alongside these.
 
 Not part of the theme. Omarchy never reads a Hyprland config from a theme
 directory; the only thing a theme sends the compositor is
-`hyprland_active_border`. To match the design, paste `hyprland-extra.lua` into
-`~/.config/hypr/looknfeel.lua`.
+`hyprland_active_border`. To match the design, paste the block in
+`hyprland-extra.lua.example` into `~/.config/hypr/looknfeel.lua`.
 
 ## The rest of the set
 

@@ -3,6 +3,10 @@
 -- Omarchy never reads a Hyprland config from a theme directory; the only thing
 -- a theme sends the compositor is `hyprland_active_border` in colors.toml.
 --
+-- Hence the .example suffix: omarchy-theme-set drops every *.lua from a theme
+-- cloned from a git repo, because that is the extension Hyprland and Neovim
+-- load code from. Renaming it back would only get it stripped on install.
+--
 -- Omarchy 4 configures Hyprland in Lua, not in .conf syntax, and there is no
 -- ~/.config/hypr/hyprland.conf. Paste the block below into
 --   ~/.config/hypr/looknfeel.lua
