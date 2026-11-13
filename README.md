@@ -118,12 +118,6 @@ desktop fall out of the palette, window borders included — and it is also why
 `shell.toml` is left to Omarchy's template, so this theme keeps picking up
 shell improvements on each release instead of pinning a snapshot.
 
-`hyprland-extra.lua.example` is documentation, not a theme file. Omarchy never
-reads it — see [Window metrics](#window-metrics). The suffix is what keeps it
-in an installed copy: `omarchy-theme-set` drops every `*.lua` from a theme
-cloned from a git repo, since that is the extension Hyprland and Neovim load
-code from.
-
 ## Backgrounds
 
 Two, cycled with `Super + Ctrl + Space`. The same two ship with
@@ -172,8 +166,59 @@ alongside these.
 
 Not part of the theme. Omarchy never reads a Hyprland config from a theme
 directory; the only thing a theme sends the compositor is
-`hyprland_active_border`. To match the design, paste the block in
-`hyprland-extra.lua.example` into `~/.config/hypr/looknfeel.lua`.
+`hyprland_active_border`. To match the design, paste the block below into
+`~/.config/hypr/looknfeel.lua`, which is loaded after both Omarchy's defaults
+and the active theme, so it wins over both.
+
+This repository ships no Lua of its own, not even as an example file. A theme
+installed from git may carry colour and images, never code, so the block lives
+here instead, and this README stands on its own.
+
+```lua
+hl.config({
+  decoration = {
+    rounding_power = 4,
+
+    -- The 0.05 gap is what marks the focused window.
+    active_opacity = 0.90,
+    inactive_opacity = 0.85,
+
+    -- Translucency without blur makes text unreadable over these wallpapers.
+    blur = {
+      enabled = true,
+      size = 6,
+      passes = 2,
+    },
+
+    shadow = {
+      enabled = true,
+      range = 20,
+      render_power = 4,
+      color = "rgba(f0e6d399)",
+      color_inactive = "rgba(f0e6d366)",
+    },
+  },
+})
+```
+
+Omarchy 4 configures Hyprland in **Lua**, not `.conf`, and there is no
+`~/.config/hypr/hyprland.conf`. Omarchy already defaults to `rounding = 0`,
+`gaps_in = 5`, `gaps_out = 10` and `border_size = 2`, so the block does not
+repeat them. Corner rounding is a machine-level setting that each person picks
+for themselves, not something a theme has any say in.
+
+Worth knowing if you change it: the shell mirrors Hyprland's
+`decoration:rounding` into its own card corners, so rounding your windows also
+rounds the menu, launcher, notifications and tooltips. And it only re-reads
+that value on startup, on a theme change, and on the
+`omarchy toggle window-gaps` flag — a hand-edited `looknfeel.lua` plus
+`hyprctl reload` rounds the windows while the shell keeps the old radius until
+you re-apply a theme or restart it.
+
+Terminal transparency is separate: `active_opacity` applies to the window
+surface, while Alacritty and Ghostty have their own background opacity. Below
+roughly 0.85, code over these wallpapers stops being comfortable. This theme
+ships no terminal config, so set that opacity by hand too.
 
 ## The rest of the set
 
